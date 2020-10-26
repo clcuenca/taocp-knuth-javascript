@@ -1,6 +1,6 @@
-# The Art of Computer Programming - Ruby
+# The Art of Computer Programming - Javascript
 
-Algorithm Implementations that are contained within Donald Knuth's *'The Art of Computer Programming'* in Ruby.
+Algorithm Implementations that are contained within Donald Knuth's *'The Art of Computer Programming'* in Javascript.
 The repository may have some implementations that are ahead of the current volume the repository is at, that may be due
 to external interest in using the algorithm, but nevertheless included as to avoid writing the algorithm more than once.
 
@@ -21,8 +21,8 @@ Each of the algorithm implementations has support for stdin (so far) and can be 
 of the test cases, so the only thing that should be edited is the input.txt file itself. 
 To run a program use a terminal/console and type in the following within the corresponding directory:
 
-```ruby
-ruby <script_name>.rb < input.txt
+```bash
+node <script_name>.rb < input.txt
 ```
 
 So far this has been tested with cygwin, but the principle should hold for macOS & linux systems.
